@@ -64,8 +64,7 @@ public class JuegosInviernoApp {
         Deportista("Prueba",1,1,2000);
         espanya.verMedallasDeportista(deportista_sin_equipo);
         //f)
-        System.out.println("\n El deportista más joven de " +
-        espanya.getPais() + " es " + espanya.deportistaMasJoven().getNombre());
+        System.out.println("\n El deportista más joven de " + espanya.getPais() + " es " + espanya.deportistaMasJoven().getNombre());
     }
 
 }
